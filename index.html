@@ -1,1 +1,83 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Form</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+NSW+ACT+Foundation:wght@700&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link href="/payment-form/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+    <div class="container">   
+       <h1 id="main_heading">
+         Payment Form
+       </h1>
+       <hr>
+    <form>  
+    <h2>
+<i>Required fields are marked as *</i>
+</h2>
+      <h3>
+<u>User information</u>
+</h3>
+     <p>Name*
+       <input type="text" value="" placeholder="Jhon" required>   
+      </p>
+      <fieldset>
+           <legend>
+        Gender (Optional)
+           </legend>
+<p>Male
+        <input type="radio" value="male" name="gender">
+</p>
+        <p>Female
+        <input type="radio" value="female" name="gender">
+        </p>
+        <p>Other
+        <input type="radio" value="other" name="gender">
+</p>
+      </fieldset>
+    <p>Address*
+   <textarea width="100%" rows="1" placeholder="ABC" required></textarea>
+    </p> 
+    <p>Pincode*
+   <input type="number" value="" placeholder="123456" required>
+   
+    </p>    
+     <p>Email*
+  <input type="email" value="" placeholder="example@gmail.com" required>
+     </p> 
+      <h3>
+<u>Payment information</u>
+      </h3>
+      <img src="https://content.jdmagicbox.com/comp/lucknow/k2/0522px522.x522.170723222753.k2k2/catalogue/chaurasiya-medical-store-lucknow-chemists-e8nc25qsiq.jpg?clr=493a1d">
+<p>*
+<select>
+<option value="select card type">==Select card type==</option><br>
+<option value="visa">Visa</option>
+  <br>
+<option value="rupay">Rupay</option>
+  <br>
+  <option value="mastercard_card">Master Card</option>
+</select> 
+</p>
+      <p>Card Number*
+  <input type="number" value="card number"  placeholder="1111-2222-3333-4444"required>
+      </p>
+      <p>CVV*
+  <input type="password" value="" placeholder="123"  required>
+      </p>
+      <p>Expiry date*
+  <input type="date" value="expiry date" required>
+      </p>
+  <input type="submit" value="Pay now!">
+  <hr>
+  <p id="copyright" >
+      &copy Aditya_Roy 2023
+      <br>
+      All rights are reserved
+  </p>
+      </div>
+  </body>  
+</html>
